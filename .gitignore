@@ -1,0 +1,6 @@
+.idea
+_output
+log
+*.exe
+serving
+test_results

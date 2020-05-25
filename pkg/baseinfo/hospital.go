@@ -1,0 +1,5 @@
+package baseinfo
+
+func GetHospitals() {
+
+}
