@@ -3,15 +3,20 @@ module github.com/shiningrush/hspider
 go 1.12
 
 require (
-	github.com/chromedp/chromedp v0.4.2
-	github.com/elazarl/goproxy v0.0.0-20190911111923-ecfe977594f1 // indirect
-	github.com/gen2brain/beeep v0.0.0-20200420150314-13046a26d502 // indirect
-	github.com/go-toast/toast v0.0.0-20190211030409-01e6764cf0a4 // indirect
-	github.com/gopherjs/gopherjs v0.0.0-20200217142428-fce0ec30dd00 // indirect
-	github.com/nu7hatch/gouuid v0.0.0-20131221200532-179d4d0c4d8d // indirect
-	github.com/parnurzeal/gorequest v0.2.16
-	github.com/pkg/errors v0.8.1 // indirect
-	golang.org/x/net v0.0.0-20191007182048-72f939374954 // indirect
-	golang.org/x/sys v0.0.0-20200501145240-bc7a7d42d5c3 // indirect
-	moul.io/http2curl v1.0.0 // indirect
+	github.com/emicklei/go-restful/v3 v3.6.0
+	github.com/kr/pretty v0.1.0 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.1 // indirect
+	github.com/shiningrush/droplet v0.2.5
+	github.com/shiningrush/droplet/wrapper/gorestful v0.1.0
+	github.com/shiningrush/goreq v0.1.0
+	github.com/stretchr/objx v0.2.0 // indirect
+	github.com/stretchr/testify v1.7.0
+	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
+)
+
+replace (
+	github.com/shiningrush/goreq => ../../github/goreq
+	github.com/shiningrush/droplet => ../../github/droplet
+	github.com/shiningrush/droplet/wrapper/gorestful => ../../github/droplet/wrapper/gorestful
 )
